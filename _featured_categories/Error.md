@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Error
-slug: Error
+slug: error
 menu: true
 order: 2
 description: >

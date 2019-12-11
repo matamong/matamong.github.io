@@ -51,13 +51,13 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Study
-    url:               /Study/
+    url:               /study/
   - title:             TIL
-    url:               /TIL/
+    url:               /til/
   - title:             Error 해결
-    url:               /Error/
+    url:               /error/
   - title:             백업
-    url:               /BackUp/
+    url:               /backup/
   - title:             About Me
     url:               /about/
 

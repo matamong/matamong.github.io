@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Study
-slug: Study
+title: study
+slug: study
 menu: true
 order: 2
 description: >

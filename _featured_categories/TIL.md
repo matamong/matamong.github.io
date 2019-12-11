@@ -1,7 +1,7 @@
 ---
 layout: list
-title: TIL
-slug: TIL
+title: til
+slug: til
 menu: true
 order: 2
 description: >
