@@ -1,6 +1,6 @@
 ---
 layout: list
-title: study
+title: Study
 slug: study
 menu: true
 order: 2
