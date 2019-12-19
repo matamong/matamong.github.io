@@ -6,11 +6,11 @@ description: >
   Servlet의 forward 방식은 무엇이 있는지 공부해보았다.
 author: matamong
 noindex: true
-categories: [Servlet]
-tags: [Servlet]
+categories: [Study, Servlet]
+tags: [study, Servlet]
 ---
 
-# **서블릿 포워드**
+# **서블릿 포워드(Servlet forward)**
 
 ## **서블릿 포워드(Forward)**
 * * *

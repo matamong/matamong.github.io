@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Servlet Life Cycle
+title: 서블릿의 생명주기(Servlet Life Cycle)
 image: https://raw.githubusercontent.com/matamong/Study/master/TIL/Web/Servlet/img/Servlet/ServletLifeCycle/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.JPG
 description: >
   Servlet의 생명주기를 공부해보았다.
 author: matamong
 noindex: true
-categories: [Study,Servlet]
-tags: [study,Servlet]
+categories: [Study, Servlet]
+tags: [study, Servlet]
 ---
 
-# Servlet의 생명주기
+# 서블릿의 생명주기(Servlet Life Cycle)
 
 **서블릿**의 생명주기를 알아보려고 한다.<br>
 먼저, 서블릿이 동작을 할 때 까지의 과정을 알아보자.<br>

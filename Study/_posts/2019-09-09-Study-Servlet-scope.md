@@ -6,11 +6,11 @@ description: >
   Servlet의 scope에 대하여 공부해보았다.
 author: matamong
 noindex: true
-categories: [Servlet]
-tags: [Servlet]
+categories: [Study, Servlet]
+tags: [study, Servlet]
 ---
 
-# ServletScope
+# 서블릿 스코프(Servlet scope)
 서블릿에서 변수를 지정하고 객체에 담아 포워드 하려면<br>객체가 어디까지 유지되는지를 반드시 알아야 마음대로 변수를 가지고 놀 수 있을 것 이다...<br>
 서블릿 객체의 각 범위들을 공부해보자!<br>
 
