@@ -5,7 +5,7 @@ description: >
   **missing required source folder** 경고문이 나올 때 해결방법
 author: matamong
 noindex: true
-categories: [IDE, eclipse]
+categories: [Error, IDE, eclipse]
 tags: [error, IDE, eclipse]
 ---
 

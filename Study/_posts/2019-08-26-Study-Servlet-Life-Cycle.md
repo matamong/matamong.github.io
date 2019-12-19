@@ -6,8 +6,8 @@ description: >
   Servlet의 생명주기를 공부해보았다.
 author: matamong
 noindex: true
-categories: [Servlet]
-tags: [Servlet]
+categories: [Study,Servlet]
+tags: [study,Servlet]
 ---
 
 # Servlet의 생명주기
