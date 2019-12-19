@@ -1,6 +1,6 @@
 ---
 layout: list
-title: Til
+title: TIL
 slug: til
 menu: true
 order: 2
