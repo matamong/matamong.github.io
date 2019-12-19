@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://matamong.github.io/
+url:                   https://matamong.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -137,11 +137,11 @@ defaults:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
- google_analytics:      UA-154652902-1
+# google_analytics:      UA-154652902-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
- disqus:                matamong
+# disqus:                <matamong>
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # tinyletter:            <tinyletter_username>
