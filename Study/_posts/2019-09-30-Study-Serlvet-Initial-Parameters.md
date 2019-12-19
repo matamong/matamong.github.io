@@ -2,7 +2,7 @@
 layout: post
 title: 서블릿의 초기화 파라미터(ServletConfig 와 ServletContext)
 description: >
-  Servlet의 scope에 대하여 공부해보았다.
+  서블릿의 초기화 파라미터인 ServletConfig와 ServletContext가 무엇인지 알아보았다.
 author: matamong
 noindex: true
 categories: [Study, Servlet]
@@ -127,6 +127,7 @@ String a = getServletContext().getInitParameter("파라미터 이름");
 둘 다 무엇인지 알아봤으니 ServletConfig와 ServletContex의 차이점을 정리해보자. <br><br>
 
 ### 차이점
+
 |  <center></center> |  <center> **ServletConfig** </center> |  <center> **ServletContex** </center> |
 |:--------:|:--------:|:--------:|
 |<center> **초기화 시기** </center> | <center> 서블릿을 생성할 때 </center> |<center>웹 어플리케이션이 시작될 때</center> |
