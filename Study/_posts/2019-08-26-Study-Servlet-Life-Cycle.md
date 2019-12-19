@@ -8,6 +8,7 @@ author: matamong
 noindex: true
 categories: [Study, Servlet]
 tags: [study, Servlet]
+comments: true
 ---
 
 # 서블릿의 생명주기(Servlet Life Cycle)

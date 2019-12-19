@@ -7,6 +7,7 @@ author: matamong
 noindex: true
 categories: [Error, IDE, eclipse]
 tags: [error, IDE, eclipse]
+comments: true
 ---
 
 # **missing required source folder**

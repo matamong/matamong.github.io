@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 서블릿 스코프(Servlet scope)
-image: https://raw.githubusercontent.com/matamong/Study/master/TIL/Web/Servlet/img/Servlet/ServletScope/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.PNG
+title: 서블릿의 초기화 파라미터(ServletConfig 와 ServletContext)
 description: >
   Servlet의 scope에 대하여 공부해보았다.
 author: matamong
 noindex: true
 categories: [Study, Servlet]
 tags: [study, Servlet]
+comments: true
 ---
 
 # **서블릿 초기화 파라미터(ServletConfig 와 ServletContext)**
@@ -127,12 +127,12 @@ String a = getServletContext().getInitParameter("파라미터 이름");
 둘 다 무엇인지 알아봤으니 ServletConfig와 ServletContex의 차이점을 정리해보자. <br><br>
 
 ### 차이점
-|  <center></center> |  <center>**ServletConfig**</center> |  <center>**ServletContex**</center> |
+|  <center></center> |  <center> **ServletConfig** </center> |  <center> **ServletContex** </center> |
 |:--------:|:--------:|:--------:|
-|<center>**초기화 시기**</center> | <center> 서블릿을 생성할 때 </center> |<center>웹 어플리케이션이 시작될 때</center> |
-|<center>**객체의 수**</center> | <center>서블릿 당 하나 </center> |<center>웹 어플리케이션 당 하나</center> |
-|<center>**접근 범위**</center> | <center>특정 서블릿</center> |<center>모든 웹 어플리케이션</center> |
-|<center>**DD 설정법**</center> | <center>`servlet`항목 안에 `init-param` </center> |<center>`web-app`항목 안에 `context-param`</center> |
+|<center> **초기화 시기** </center> | <center> 서블릿을 생성할 때 </center> |<center>웹 어플리케이션이 시작될 때</center> |
+|<center> **객체의 수** </center> | <center>서블릿 당 하나 </center> |<center>웹 어플리케이션 당 하나</center> |
+|<center> **접근 범위** </center> | <center>특정 서블릿</center> |<center>모든 웹 어플리케이션</center> |
+|<center> **DD 설정법** </center> | <center>`servlet`항목 안에 `init-param` </center> |<center>`web-app`항목 안에 `context-param`</center> |
 
 <br><br>
 ### 공통점
@@ -147,10 +147,16 @@ String a = getServletContext().getInitParameter("파라미터 이름");
 
 
 <br><br><br>
-***
-[참고서적] `<<Head First Servlet & JSP>>`<br>
+
+* * *
+
+[참고서적] `<<Head First Servlet & JSP>>` <br>
  -지은이 케이시 시에라, 버트 베이츠, 브라얀 바샴 <br>
-[참고 사이트]`https://tomcat.apache.org`의 ServletContext API <br>
+
+[참고 사이트] `https://tomcat.apache.org`의 ServletContext API <br>
+
  https://tomcat.apache.org/tomcat-5.5-doc/servletapi/javax/servlet/ServletContext.html <br>
- [참고사이트]`https://javabeginnerstutorial.com`의 Servlet Context tutorial for Java beginners <br>
+
+ [참고사이트] `https://javabeginnerstutorial.com`의 Servlet Context tutorial for Java beginners <br>
+
  https://javabeginnerstutorial.com/servlet-2/servlet-context-tutorial-for-java-beginners/ <br>

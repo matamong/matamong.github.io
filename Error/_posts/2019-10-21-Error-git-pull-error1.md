@@ -7,6 +7,7 @@ author: matamong
 noindex: true
 categories: [Error, git]
 tags: [error, git]
+comments: true
 ---
 
 # **git pull 할 때 Your local changes to the following files would be overwritten by merge 에러**
