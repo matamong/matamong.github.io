@@ -1,8 +1,8 @@
 ---
 layout: post
-title: [java.io.FileNotFoundException] Could not open ServletContext resource
+title: java.io.FileNotFoundException - Could not open ServletContext resource
 description: >
-  **[java.io.FileNotFoundException] Could not open ServletContext resource* 경고문이 나올 때 해결방법
+  **[java.io.FileNotFoundException] Could not open ServletContext resource**경고문이 나올 때 해결방법
 author: matamong
 noindex: true
 categories: [Error, Spring]
